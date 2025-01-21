@@ -1,0 +1,18 @@
+.footer {
+height: 5%;
+position: fixed;
+bottom: 0;
+justify-content: flex-end;
+font-size: .8rem;
+text-decoration: none;
+
+}
+
+a {
+text-decoration: none;
+color: rgba(78, 30, 122, .5);
+}
+
+a:hover {
+color:  rgba(78, 30, 122, .7);;
+}

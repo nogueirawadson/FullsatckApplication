@@ -1,0 +1,34 @@
+<app-header> </app-header>
+<form>
+    <h2> ATUALIZANDO TO-DO </h2>
+
+    <div class="forms">
+
+        <mat-form-field class="form">
+            <mat-label>TITULO </mat-label>
+            <input  matInput [(ngModel)]="todo.titulo" name="titulo" placeholder="EX: ESTUDAR SPRING">
+        </mat-form-field>
+
+        <mat-form-field class="form">
+            <mat-label> DESCRIÇÃO </mat-label>
+            <input matInput [(ngModel)]="todo.descricao" name="descricao" placeholder="EX: ESTUDAR SPRING BOOT 3">
+        </mat-form-field>
+
+    </div>
+
+        <mat-form-field class="data-finalizar" appearance="fill">
+        <mat-label>Data Para Finalizar: </mat-label>
+        <input matInput [(ngModel)]="todo.dataParaFinalizar" name="Data PraFinalizar" [matDatepicker]="dp3" disabled>
+        <mat-datepicker-toggle matIconSuffix [for]="dp3"></mat-datepicker-toggle>
+        <mat-datepicker #dp3 disabled="false"></mat-datepicker>
+    </mat-form-field>
+
+    <div class="buttons">
+
+        <button (click)="update()" mat-stroked-button color="primary">ATUALIZAR</button>
+        <button (click)="cancel()" mat-stroked-button color="warn"> CANCELAR</button>
+
+    </div>
+
+
+</form>
