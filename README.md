@@ -1,5 +1,5 @@
 <h1> APLICAÇÃO TODO FULLSTACK </h1>
-<p> Aplicação web criada para gerenciar tarefas, onde têm-se como principais funções, criar, deletar, e concluir os "TODOS". Além de descrever do que se trata a tarefa, é possível também adicionar data para conclusão, tudo isso graças ao poderoso Java e suas possibilidades para criação de Apis, como também o poderoso Angular framework! </p>
+<p> Aplicação web criada para gerenciar tarefas, onde têm-se como principais funções, criar, deletar, e concluir os "TODOS". Além de descrever do que se trata a tarefa, é possível também adicionar data para conclusão, tudo isso graças ao poderoso Java e suas possibilidades para criação de Apis, como também o poderoso Angular  e o Typescript! </p>
 <h3> PROJETO DESENVOLVIDO A PARTIR DAS SEGUINTES TECNOLOGIAS: </h3>
 </br>
 <ul> 
